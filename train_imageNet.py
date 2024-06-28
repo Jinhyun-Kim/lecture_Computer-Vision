@@ -223,7 +223,7 @@ print("writing tensorboard result to ./runs/")
 
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    data_dir = '/home/jinhyun/datasets/ILSVRC2012' 
+    data_dir = '/datasets/ILSVRC2012' 
     model_architecture = "resnet50"
     pretrained = False #"IMAGENET1K_V2"
     start_epoch = 0
